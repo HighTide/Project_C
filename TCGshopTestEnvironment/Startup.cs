@@ -37,8 +37,8 @@ namespace TCGshopTestEnvironment
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
             services.AddDistributedMemoryCache();
             services.AddSession();
-            var connection = @"Server =(localdb)\mssqllocaldb;Database=MVCLoginDB;Trusted_Connection=True;";
-            services.AddDbContext<DBModel>(options => options.UseSqlServer(connection));
+            var connection = @"User ID=postgres;Password=test;Host=localhost;Port=5432;Database=TCG;Pooling=true;";
+            services.AddDbContext<DBModel>(options => options.UseNpgsql(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
