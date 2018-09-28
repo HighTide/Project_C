@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.HttpsPolicy;
+using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
@@ -33,10 +34,13 @@ namespace TCGshopTestEnvironment
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
+            services.AddIdentity<UserAccount, IdentityRole>()
+                .AddEntityFrameworkStores<DBModel>()
+                .AddDefaultTokenProviders();
+
+
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_1);
-            services.AddDistributedMemoryCache();
-            services.AddSession();
             var connection = @"User ID=postgres;Password=test;Host=localhost;Port=5432;Database=TCG;Pooling=true;";
             services.AddDbContext<DBModel>(options => options.UseNpgsql(connection));
         }
@@ -56,9 +60,8 @@ namespace TCGshopTestEnvironment
 
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
-            app.UseSession();
 
+            app.UseAuthentication();
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
