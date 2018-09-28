@@ -103,3 +103,4 @@ J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvir
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csprojAssemblyReference.cache
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
