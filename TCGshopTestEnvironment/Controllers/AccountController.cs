@@ -41,7 +41,7 @@ namespace TCGshopTestEnvironment.Controllers
                 {
                     return RedirectToAction("Index", "Home");
                 }
-                ModelState.AddModelError("", "Invalid Login Attempt.");
+                ModelState.AddModelError("", "Username or password is incorrect.");
                 return View(vm);
             }
 
