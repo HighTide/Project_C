@@ -107,7 +107,11 @@ using Microsoft.AspNetCore.Http.Features;
                     ");
             EndContext();
             BeginContext(1208, 92, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "fe4398791df043fda0b68d44e388f95b", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "e2987a4786db47d8b573e2f3517cfc29", async() => {
+>>>>>>> Hamza-test
                 BeginContext(1286, 10, true);
                 WriteLiteral("Learn More");
                 EndContext();
