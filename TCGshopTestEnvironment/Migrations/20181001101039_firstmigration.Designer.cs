@@ -10,8 +10,8 @@ using TCGshopTestEnvironment.Models;
 namespace TCGshopTestEnvironment.Migrations
 {
     [DbContext(typeof(DBModel))]
-    [Migration("20180930222932_thirdmigration")]
-    partial class thirdmigration
+    [Migration("20181001101039_firstmigration")]
+    partial class firstmigration
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {

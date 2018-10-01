@@ -4,7 +4,7 @@ using Npgsql.EntityFrameworkCore.PostgreSQL.Metadata;
 
 namespace TCGshopTestEnvironment.Migrations
 {
-    public partial class FirstMigration : Migration
+    public partial class firstmigration : Migration
     {
         protected override void Up(MigrationBuilder migrationBuilder)
         {
@@ -43,11 +43,101 @@ namespace TCGshopTestEnvironment.Migrations
                     AccessFailedCount = table.Column<int>(nullable: false),
                     Country = table.Column<string>(nullable: true),
                     Address = table.Column<string>(nullable: true),
-                    ZipCode = table.Column<string>(nullable: true)
+                    ZipCode = table.Column<string>(nullable: true),
+                    LastName = table.Column<string>(nullable: true),
+                    FirstName = table.Column<string>(nullable: true)
                 },
                 constraints: table =>
                 {
                     table.PrimaryKey("PK_AspNetUsers", x => x.Id);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "catagories",
+                columns: table => new
+                {
+                    Catagory_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Name = table.Column<string>(nullable: true),
+                    Description = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_catagories", x => x.Catagory_ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "orders",
+                columns: table => new
+                {
+                    Order_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Shipping_Status = table.Column<string>(nullable: true),
+                    Purchage_Date = table.Column<DateTime>(nullable: false),
+                    Payment_Status = table.Column<string>(nullable: true),
+                    Shipped_Date = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_orders", x => x.Order_ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "pictures",
+                columns: table => new
+                {
+                    Picture_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Picture = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_pictures", x => x.Picture_ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "products",
+                columns: table => new
+                {
+                    Product_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Price = table.Column<float>(nullable: false),
+                    Description = table.Column<string>(nullable: true),
+                    Grade = table.Column<string>(nullable: true),
+                    Stock = table.Column<int>(nullable: false),
+                    Date_Created = table.Column<DateTime>(nullable: false),
+                    Date_Updated = table.Column<DateTime>(nullable: false),
+                    Views_Listed = table.Column<int>(nullable: false),
+                    Views_Details = table.Column<string>(nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_products", x => x.Product_ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "statistics",
+                columns: table => new
+                {
+                    Static_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn),
+                    Date = table.Column<DateTime>(nullable: false)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_statistics", x => x.Static_ID);
+                });
+
+            migrationBuilder.CreateTable(
+                name: "whishlists",
+                columns: table => new
+                {
+                    Whishlist_ID = table.Column<int>(nullable: false)
+                        .Annotation("Npgsql:ValueGenerationStrategy", NpgsqlValueGenerationStrategy.SerialColumn)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_whishlists", x => x.Whishlist_ID);
                 });
 
             migrationBuilder.CreateTable(
@@ -210,6 +300,24 @@ namespace TCGshopTestEnvironment.Migrations
 
             migrationBuilder.DropTable(
                 name: "AspNetUserTokens");
+
+            migrationBuilder.DropTable(
+                name: "catagories");
+
+            migrationBuilder.DropTable(
+                name: "orders");
+
+            migrationBuilder.DropTable(
+                name: "pictures");
+
+            migrationBuilder.DropTable(
+                name: "products");
+
+            migrationBuilder.DropTable(
+                name: "statistics");
+
+            migrationBuilder.DropTable(
+                name: "whishlists");
 
             migrationBuilder.DropTable(
                 name: "AspNetRoles");

@@ -52,9 +52,7 @@ D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTe
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
-D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Login.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
-D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Register.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Welcome.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
@@ -140,3 +138,6 @@ C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netco
 C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.dll
 C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.pdb
 C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csproj.CopyComplete
+D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
