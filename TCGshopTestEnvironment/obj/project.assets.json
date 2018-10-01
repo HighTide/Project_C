@@ -11631,23 +11631,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\René van Til\\.nuget\\packages\\": {},
+    "C:\\Users\\Koen\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "J:\\Prive\\School\\Hogeschool Rotterdam\\Jaar 2\\Projecten\\Project_C\\TCGshopTestEnvironment\\TCGshopTestEnvironment.csproj",
+      "projectUniqueName": "C:\\Users\\Koen\\Documents\\GitHub\\Project_C\\TCGshopTestEnvironment\\TCGshopTestEnvironment.csproj",
       "projectName": "TCGshopTestEnvironment",
-      "projectPath": "J:\\Prive\\School\\Hogeschool Rotterdam\\Jaar 2\\Projecten\\Project_C\\TCGshopTestEnvironment\\TCGshopTestEnvironment.csproj",
-      "packagesPath": "C:\\Users\\René van Til\\.nuget\\packages\\",
-      "outputPath": "J:\\Prive\\School\\Hogeschool Rotterdam\\Jaar 2\\Projecten\\Project_C\\TCGshopTestEnvironment\\obj\\",
+      "projectPath": "C:\\Users\\Koen\\Documents\\GitHub\\Project_C\\TCGshopTestEnvironment\\TCGshopTestEnvironment.csproj",
+      "packagesPath": "C:\\Users\\Koen\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Koen\\Documents\\GitHub\\Project_C\\TCGshopTestEnvironment\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\René van Til\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Koen\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
