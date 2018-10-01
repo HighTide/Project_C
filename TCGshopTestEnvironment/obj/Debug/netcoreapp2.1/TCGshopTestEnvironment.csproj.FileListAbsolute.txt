@@ -102,6 +102,45 @@ J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvir
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csprojAssemblyReference.cache
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
 J:\Prive\School\Hogeschool Rotterdam\Jaar 2\Projecten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+<<<<<<< HEAD
+=======
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.deps.json
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.runtimeconfig.json
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.runtimeconfig.dev.json
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.dll
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.pdb
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.Views.dll
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\bin\Debug\netcoreapp2.1\TCGshopTestEnvironment.Views.pdb
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csprojAssemblyReference.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csproj.CoreCompileInputs.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.RazorAssemblyInfo.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.RazorAssemblyInfo.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.AssemblyInfoInputs.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.AssemblyInfo.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.TagHelpers.input.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.TagHelpers.output.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.RazorCoreGenerate.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\About.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Contact.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Index.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Privacy.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Home\Welcome.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\Error.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_CookieConsentPartial.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_Layout.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_ValidationScriptsPartial.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\_ViewImports.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\_ViewStart.g.cshtml.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.RazorTargetAssemblyInfo.cache
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.RazorTargetAssemblyInfo.cs
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.Views.pdb
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.dll
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.pdb
+C:\Users\Hamza\Documents\GitHub\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\TCGshopTestEnvironment.csproj.CopyComplete
+>>>>>>> Hamza-test
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Login.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Account\Register.g.cshtml.cs
 D:\Documenten\Project_C\TCGshopTestEnvironment\obj\Debug\netcoreapp2.1\Razor\Views\Shared\_LoginPartial.g.cshtml.cs

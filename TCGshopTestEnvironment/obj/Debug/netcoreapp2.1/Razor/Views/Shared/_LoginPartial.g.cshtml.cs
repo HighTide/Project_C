@@ -86,12 +86,20 @@ using Microsoft.AspNetCore.Authorization;
             WriteLiteral("    ");
             EndContext();
             BeginContext(213, 446, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "f3b54a1f401743229459889d1f06aa37", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("form", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "b900bad2895046278e90626b9d56b8cc", async() => {
+>>>>>>> Hamza-test
                 BeginContext(327, 83, true);
                 WriteLiteral("\n        <ul class=\"nav navbar-nav navbar-right\">\n            <li>\n                ");
                 EndContext();
                 BeginContext(410, 71, false);
+<<<<<<< HEAD
                 __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "262d5ac8bb6f4d418cd26b5f57e2e338", async() => {
+=======
+                __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "a6f0eff9396b455680da595e58e42e1a", async() => {
+>>>>>>> Hamza-test
                     BeginContext(440, 6, true);
                     WriteLiteral("Hello ");
                     EndContext();
@@ -161,7 +169,11 @@ else
             WriteLiteral("    <ul class=\"nav navbar-nav navbar-right\">\n        <li>");
             EndContext();
             BeginContext(726, 74, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "6966e6b876c84994919d8ed9c2fd07d8", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "911518db59844a6490f69639a8ee5d8c", async() => {
+>>>>>>> Hamza-test
                 BeginContext(788, 8, true);
                 WriteLiteral("Register");
                 EndContext();
@@ -187,7 +199,11 @@ else
             WriteLiteral("</li>\n        <li>");
             EndContext();
             BeginContext(818, 69, false);
+<<<<<<< HEAD
             __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "c1331e609f49437d8afb0bee4948f135", async() => {
+=======
+            __tagHelperExecutionContext = __tagHelperScopeManager.Begin("a", global::Microsoft.AspNetCore.Razor.TagHelpers.TagMode.StartTagAndEndTag, "314ea18c7ac64081a6388f2ead5c4fb8", async() => {
+>>>>>>> Hamza-test
                 BeginContext(877, 6, true);
                 WriteLiteral("Log in");
                 EndContext();

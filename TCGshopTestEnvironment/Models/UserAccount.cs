@@ -18,5 +18,6 @@ namespace TCGshopTestEnvironment.Models
         public string LastName { get; set; }
         public string FirstName { get; set; }
 
+        
     }
 }
