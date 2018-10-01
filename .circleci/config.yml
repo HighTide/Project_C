@@ -17,6 +17,6 @@ jobs:
       - checkout
       - run: find .
       - run: dotnet restore
-      - rum: cd /TCG/TCGshopTestEnvironment      
+      - run: cd /TCG/TCGshopTestEnvironment      
       - run: dotnet ef database update
       - run: dotnet build
